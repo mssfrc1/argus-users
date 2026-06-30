@@ -1,0 +1,50 @@
+# Build output
+bin/
+obj/
+out/
+
+# .NET / NuGet
+*.user
+*.suo
+*.userprefs
+*.usertasks
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+
+# Rider / VS / VSCode
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / env
+.env
+*.pfx
+*.p12
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Docker
+postgres_data/
+
+# Claude
+CLAUDE.md
